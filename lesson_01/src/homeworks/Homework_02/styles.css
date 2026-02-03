@@ -1,0 +1,16 @@
+.card {
+  width: 250px;
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card-avatar {
+  width: 120px;
+}
+.cards-container {
+  display: flex;
+  gap: 16px;
+}
