@@ -1,5 +1,4 @@
-import Card from './components/Card/Card';
-import "./styles.css";
+import Card from './components/Card'
 
 function Homework_02() {
   return (
