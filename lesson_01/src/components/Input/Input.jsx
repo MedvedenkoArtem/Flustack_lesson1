@@ -1,17 +1,15 @@
 import "./styles.css";
 
-// function Input(props) {
-//   console.log(props);
-//   const { id, name, type, placeholder, label } = props;
-function Input({ id, name, type, placeholder, label }) {
+function Input({ name, type, placeholder, label }) {
   return (
-    <div className="input-wrapper">
-      <label className="input-label" htmlFor={id}>
+    <div className="input_container">
+      <label className="input_label" htmlFor={name}>
         {label}
       </label>
+
       <input
-        className="input-component"
-        id={id}
+        id={name}
+        className="input_field"
         name={name}
         type={type}
         placeholder={placeholder}
@@ -21,4 +19,3 @@ function Input({ id, name, type, placeholder, label }) {
 }
 
 export default Input;
-
