@@ -1,14 +1,19 @@
-.button {
-  width: 100%;
-  padding: 12px;
-  background-color: #4f46e5;
-  color: white;
+.button_component {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
   border: none;
-  border-radius: 6px;
+  padding: 0;
+  height: 70px;
+  width: 100%;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
   cursor: pointer;
-  font-size: 16px;
 }
 
-.button:hover {
-  background-color: #4338ca;
+.button_component:hover {
+  background-color: orangered;
 }
