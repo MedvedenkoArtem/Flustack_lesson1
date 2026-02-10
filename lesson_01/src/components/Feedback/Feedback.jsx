@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./styles.css";
 
-function Likes() {
+function Feedback() {
   const [likes, setLikes] = useState(0);
   const [dislikes, setDislikes] = useState(0);
   console.log("Likes in Component:", likes, dislikes);
@@ -38,4 +38,4 @@ function Likes() {
   );
 }
 
-export default Likes;
+export default Feedback;
